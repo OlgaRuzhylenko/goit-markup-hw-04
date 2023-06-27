@@ -413,7 +413,7 @@ padding: 120px 0;
 
 }
 .item-customers-icon {
-    
+
 }
 /* footer class */
 .footer {
@@ -444,4 +444,22 @@ margin-bottom: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 max-width: 264px;
+}
+.media {
+color: var(--primary-white-color);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.32px;
+}
+.list-media {
+    display: flex;
+    text-align: center;
+
+}
+.item-media {
+
+}
+.item-media-icon {
+
 }
