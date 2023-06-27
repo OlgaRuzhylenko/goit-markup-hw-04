@@ -389,7 +389,32 @@ letter-spacing: 0.02em;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
+/* Customers class */
+.customers {
+padding: 120px 0;
+}
+.customers-title {
+    color: var(--secondary-black-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+.list-customers {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 105px;
+}
+.item-customers {
 
+}
+.item-customers-icon {
+    
+}
 /* footer class */
 .footer {
     background-color: var(--secondary-black-color);
