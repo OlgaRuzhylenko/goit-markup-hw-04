@@ -222,6 +222,19 @@ border-radius: 4px;
 }
 .features-item-icon {
    
+  
+}
+.features-icon-style {
+    background-color: var(--secondary-white-color);
+    border-radius: 4px;
+    width: 264px;
+height: 112px;
+flex-shrink: 0;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
 }
 .features-title {
     color:  var(--secondary-black-color);
@@ -306,6 +319,7 @@ gap: 24px;
     align-items: center;
 }
 .position-team-icon {
+    /* видалити два нижні рядки!!! */
 fill:none;
 stroke: #111;
 }
@@ -424,6 +438,13 @@ padding: 120px 0;
 }
 .item-customers-icon {
 
+}
+.customers-link {
+    display: flex;
+    width: 168px;
+    height: 88px;
+    justify-content: center;
+    align-items: center;
 }
 /* footer class */
 .footer {
