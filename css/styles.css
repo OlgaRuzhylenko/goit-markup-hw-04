@@ -325,7 +325,8 @@ gap: 24px;
     align-items: center;
     justify-content: center;
     gap: 24px;
-    margin-bottom: 32px;
+    /* margin-bottom: 32px; */
+    margin-top: 8px;
 }
 .position-team-icon {
    
