@@ -319,6 +319,12 @@ gap: 24px;
    width: 40px;
    height: 40px;
 }
+.icon-team:hover {
+    background-color: var(--hover-color);
+}
+.icon-team:focus {
+    background-color: var(--hover-color);
+}
 .list-link-team {
     list-style-type: none;
     display: flex;
@@ -445,7 +451,7 @@ padding: 120px 0;
 
 }
 .item-customers-icon {
-
+fill: currentColor;
 }
 .customers-link {
     display: flex;
@@ -456,10 +462,15 @@ padding: 120px 0;
 
     border: 1px solid #8E8F99;
     border-radius: 4px;
+
+    color: #8E8F99;
 }
 
 .customers-link:hover {
     border-color: var(--hover-color);
+    border-radius: 4px;
+    color: var(--hover-color)
+    border: 1px solid var(--hover-color);
 }
 .customers-link:hover .item-customers-icon {
 fill: var(--hover-color);
@@ -519,6 +530,12 @@ letter-spacing: 0.32px;
     width: 40px;
     height: 40px;
     margin-top: 16px;
+}
+.item-media:hover {
+    background-color: #31D0AA;
+}
+.item-media:focus {
+    background-color: #31D0AA;
 }
 .item-media-icon {
 
