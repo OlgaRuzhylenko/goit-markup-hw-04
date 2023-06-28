@@ -159,6 +159,10 @@ padding-bottom: 60px; */
     padding-right: 0;
     padding-bottom: 188px;
     padding-left: 0;
+
+    background-image: url(../images/hero-section/people-office.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     }
 .hero-title {   
 font-weight: 700;
