@@ -310,18 +310,25 @@ gap: 24px;
 .img-team {
   
 }
-.link-icon-team {
-   
+.icon-team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-color: var(--primary-accent-color);
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
 }
 .list-link-team {
     list-style-type: none;
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 32px;
 }
 .position-team-icon {
-    /* видалити два нижні рядки!!! */
-fill:none;
-stroke: #111;
+   
 }
 .subtitle {
     padding-top: 32px;
@@ -445,6 +452,9 @@ padding: 120px 0;
     height: 88px;
     justify-content: center;
     align-items: center;
+
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
 }
 /* footer class */
 .footer {
