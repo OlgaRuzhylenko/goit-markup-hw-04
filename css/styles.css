@@ -495,6 +495,9 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 max-width: 264px;
 }
+.footer-logo-text {
+    margin-right: 120px;
+}
 .media {
 color: var(--primary-white-color);
 font-size: 16px;
@@ -504,12 +507,34 @@ letter-spacing: 0.32px;
 }
 .list-media {
     display: flex;
-    text-align: center;
+   gap: 16px;
 
 }
 .item-media {
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-accent-color);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: 16px;
 }
 .item-media-icon {
 
 }
+.logo-media {
+    display: flex;
+}
+
+.footer-media {
+   
+}
+
+display: flex;
+    align-items: center;
+    justify-content: center;
+   background-color: var(--primary-accent-color);
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
