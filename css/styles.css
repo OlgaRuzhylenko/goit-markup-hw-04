@@ -457,6 +457,14 @@ padding: 120px 0;
     border: 1px solid #8E8F99;
     border-radius: 4px;
 }
+
+.customers-link:hover {
+    border-color: var(--hover-color);
+}
+.customers-link:hover .item-customers-icon {
+fill: var(--hover-color);
+}
+
 /* footer class */
 .footer {
     background-color: var(--secondary-black-color);
