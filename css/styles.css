@@ -442,6 +442,9 @@ letter-spacing: 0.02em;
 
     overflow: hidden;
 }
+.link-img {
+ 
+}
 
 .picture-img {
     /* margin-bottom: 32px; */
@@ -700,7 +703,6 @@ transform: translateX(-50%) translateY(-50%);
 .modal-btn:hover, .modal-btn:focus {
     background-color: #404bbf;
     border: none;
-
 }
 
   
