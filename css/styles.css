@@ -549,14 +549,23 @@ fill: currentColor;
 }
 
 .customers-link:hover {
-    border-color: var(--hover-color);
+    border-color: #404bbf;
     border-radius: 4px;
-    color: var(--hover-color)
-    border: 1px solid var(--hover-color);
+    color: #404bbf;
+    border: 1px solid #404bbf;
+}
+.customers-link:focus {
+    border-color: #404bbf;
+    border-radius: 4px;
+    color: #404bbf;
+    border: 1px solid #404bbf;
 }
 .customers-link:hover .item-customers-icon {
 fill: var(--hover-color);
 }
+.customers-link:focus .item-customers-icon {
+    fill: var(--hover-color);
+    }
 
 /* footer class */
 .footer {
