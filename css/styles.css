@@ -443,11 +443,13 @@ letter-spacing: 0.02em;
     overflow: hidden;
 }
 .link-img {
- 
+    position: relative;
+
+    overflow: hidden;
 }
 
 .picture-img {
-    /* margin-bottom: 32px; */
+   
  
 }
 .title-img {
