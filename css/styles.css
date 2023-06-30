@@ -369,9 +369,9 @@ gap: 24px;
 }
 .subtitle {
     padding-top: 32px;
-    padding-right: 16px;
+    padding-right: 0;
     padding-bottom: 32px;
-    padding-left: 16px;
+    padding-left: 0;
 }
 .name-team {
     color:  var(--secondary-black-color);
