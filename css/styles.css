@@ -347,7 +347,7 @@ gap: 24px;
    width: 40px;
    height: 40px;
 
-   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
 }
 .link-item-team {
     width: 100%;
@@ -358,6 +358,8 @@ gap: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-item-team:hover {
     background-color: var(--hover-color);
