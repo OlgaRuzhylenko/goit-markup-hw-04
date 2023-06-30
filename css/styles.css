@@ -684,7 +684,7 @@ transform: translateX(-50%) translateY(-50%);
      }
 
 .modal-icon:hover, .modal-icon:focus {
-        fill: #ffffff;
+        /* fill: #ffffff; */
      }
 
 .modal-btn {
@@ -710,7 +710,8 @@ transform: translateX(-50%) translateY(-50%);
 .modal-btn:hover, .modal-btn:focus {
     background-color: #404bbf;
     border: none;
-    
-}
+    }
 
-  
+.modal-btn:hover, .modal-icon {
+        fill: #ffffff;
+}
