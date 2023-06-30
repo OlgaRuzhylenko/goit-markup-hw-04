@@ -607,6 +607,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.32px;
+margin-bottom: 16px;
 }
 .list-media {
     display: flex;
@@ -625,6 +626,9 @@ letter-spacing: 0.32px;
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.footer-link-icon {
+    
+}
 .item-media:hover {
     background-color: #31D0AA;
 }
@@ -636,6 +640,7 @@ letter-spacing: 0.32px;
 }
 .logo-media {
     display: flex;
+    align-items: baseline;
 }
 
 .footer-media {
