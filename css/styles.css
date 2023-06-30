@@ -622,9 +622,14 @@ letter-spacing: 0.32px;
     height: 100%;
     background-color:#2E2F4266;
     z-index: 100;
+
+    transition: opacity 250ms ease-out, visibility 250ms ease-out;
 }
 .backdrop.is-hidden {
 display: none;
+opacity: 0;
+visibility: hidden;
+pointer-events: none;
 }
 .modal {
     position: absolute;
@@ -637,9 +642,8 @@ transform: translateX(-50%) translateY(-50%);
     background-color: #FCFCFC;
     border-radius: 4px;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
-
     }
-
+    
 .modal-icon {
  fill: currentColor;
      }
