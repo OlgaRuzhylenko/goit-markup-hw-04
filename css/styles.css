@@ -447,6 +447,11 @@ letter-spacing: 0.02em;
 
     overflow: hidden;
 }
+.link-img:hover .overlay,
+.link-img:focus .overlay
+{
+    transform: translateY(0%);
+}
 
 .picture-img {
    
@@ -469,7 +474,8 @@ letter-spacing: 0.02em;
 }
 /* overlay text */
 .picture-wrapper {
-    
+    position: relative;
+    overflow: hidden;
 }
 .overlay {
 position: absolute;
@@ -479,26 +485,25 @@ left: 0;
 width: 100%;
 height: 100%;
 
-transform: translateY(100%);
- transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    /* width: 360px;
-    height: 300px; */
-    background-color: var(--primary-accent-color);
-    padding-top: 40px;
+background-color: var(--primary-accent-color);
+color: var(--secondary-white-color);
+
+padding-top: 40px;
     padding-right: 32px;
     padding-bottom: 164px;
     padding-left: 32px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 
-    transition: transform;
-}
+    overflow: auto;
+
+transform: translateY(100%);
+ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+   }
 .item-img:hover .overlay {
     transform: translateY(0);
-}
-.overlay-description {
-color: var(--secondary-white-color);
-line-height: 1.5;
-letter-spacing: 0.32px;
 }
 
 .desc {
@@ -524,7 +529,7 @@ padding: 120px 0;
     display: flex;
     gap: 24px;
     justify-content: center;
-    margin-bottom: 105px;
+    
 }
 .item-customers {
 
@@ -608,14 +613,10 @@ margin-bottom: 16px;
    gap: 16px;
 
 }
-.item-media {
-       
-    
+.item-media {    
     width: 40px;
     height: 40px;
-    margin-top: 16px;
-
-   
+    
 }
 .footer-link-icon {
     width: 100%;
@@ -679,12 +680,12 @@ transform: translateX(-50%) translateY(-50%);
     }
     
 .modal-icon {
- fill: currentColor;
+    fill: #2E2F42;
  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
      }
 
 .modal-icon:hover, .modal-icon:focus {
-        /* fill: #ffffff; */
+        fill: #ffffff;
      }
 
 .modal-btn {
@@ -710,8 +711,10 @@ transform: translateX(-50%) translateY(-50%);
 .modal-btn:hover, .modal-btn:focus {
     background-color: #404bbf;
     border: none;
+  
     }
 
-.modal-btn:hover, .modal-icon {
+/* .modal-btn:hover {
         fill: #ffffff;
 }
+.modal-icon  */
