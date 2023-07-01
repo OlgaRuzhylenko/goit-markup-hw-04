@@ -443,10 +443,15 @@ letter-spacing: 0.02em;
     overflow: hidden;
 }
 .link-img {
+    display: block;
     position: relative;
 
     overflow: hidden;
 }
+.link-img:hover, .link-img:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .link-img:hover .overlay,
 .link-img:focus .overlay
 {
